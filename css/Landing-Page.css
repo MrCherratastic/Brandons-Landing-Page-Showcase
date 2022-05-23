@@ -726,17 +726,17 @@ Drivers Slide
 
 #land-page #drivers .slideshow-item:nth-child(1),
 #land-page #drivers .slideshow-item:nth-child(1) img{
- animation-delay: 0s;
+ animation-delay: 20s;
 }
 
 #land-page #drivers .slideshow-item:nth-child(2),
 #land-page #drivers .slideshow-item:nth-child(2) img{
-  animation-delay: 5s;
+  animation-delay: 20s;
  }
 
  #land-page #drivers .slideshow-item:nth-child(3),
  #land-page #drivers .slideshow-item:nth-child(3) img{
-  animation-delay: 10s;
+  animation-delay: 20s;
  }
 
  #land-page #drivers .slideshow-item:nth-child(4),
