@@ -1,4 +1,4 @@
-![Banner](C:\Users\bcher\VS Code Files\Brandons-Landing-Page\images\Brandon's_Land_Page (1).jpg) 
+![Banner](images\Brandon's_Land_Page (1).jpg) 
 
 # Brandon's F1 Demo Page
 
