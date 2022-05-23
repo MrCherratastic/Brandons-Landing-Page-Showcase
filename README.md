@@ -1,4 +1,4 @@
-![Banner](images\Brandon's_Land_Page (1).png) 
+![Banner](C:\Users\bcher\VS Code Files\Brandons-Landing-Page\images\Brandon's_Land_Page (1).png) 
 
 # Brandon's F1 Demo Page
 
@@ -9,7 +9,7 @@ The page tells you intresting facts about F1's 2022 Season.
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/uv_kO4Ztb9g?style=social)
 
-![Project Photo](images\carbon (1).jpg)
+![Project Photo](file:///C:/Users/bcher/VS%20Code%20Files/Brandons-Landing-Page/images/carbon%20(1).jpg)
 This page includes JavaScript, CSS, and HTML.
 
 # Key Features
@@ -49,7 +49,7 @@ Page includes multiple sections.
 
 Navigation is built dynamically as an unordered list and starts with empty ul.
 
-![Project Photo](images\carbon (2).png)
+![Project Photo](file:///C:/Users/bcher/VS%20Code%20Files/Brandons-Landing-Page/images/carbon%20(2).png)
 Dynamic navigation code snippet.
 
 - Scroll to Anchor:
