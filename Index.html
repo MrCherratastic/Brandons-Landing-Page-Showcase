@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+  <title>Brandon's F1 Demo Page</title>
+  <link rel="stylesheet" href="css\Landing-Page.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!--favicon-->
+  <link rel="icon" type="image/png" href="images/MrCherratasticLogo.png" sizes="16x16" />
+</head>
+
+<body id="land-page">
+ 
+  <header id="returnHome"> 
+    <!--Nav Start-->
+    <nav id="nav">
+      <!--Nav-->
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="images/MrCherratasticLogo.png" class="logo" alt="logo" />
+          <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+        <!-- links -->
+        <div class="links-container">
+          <ul class="links" id="navbar_list"></ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="video-showcase" data-nav="Home" id="home">
+    <div class="video-container">
+      <video src="video\f1_Showcase.mp4" id="homevideo" autoplay muted loop></video>
+    </div>
+    <div id="video-info">
+      <time id="time" 12:17:04 PM></time>
+      <h1>F1 2022 Heats Up A New Era</h1>
+      <h3>We give you an overview of what's new in the 2022 F1 season.</h3>
+      <!-- <button><a href="#about" class="button">Hit The Track</a></button> -->
+    </div>
+  </section>
+  <section id="era" data-nav="New Era">
+    <main class="wrapper">
+      <h1 class="main-heading">A New Era Of F1 Racing</h1>
+      <Article>
+        <p class="era-text">Porpoising, smoking rubber, DRS sparks, and more get your popcorn ready for the thrill
+          of the F1 2022 season!
+          With team chemistries building or burning bridges, the top squads of Mercedes and Red Bull enter the ring and
+          aren't pulling any punches!</p>
+      </Article>
+      <div class="facts blur" id="facts">
+        <ul>
+          <li>
+            <div class="card-container">
+              <div class="card-img"><img src="images\car.jpg" alt="Super Fast F1 Car "></div>
+              <div class="card-title">
+                <h3>Practice Makes Perfect</h3>
+              </div>
+              <div class="card-info">
+                <p class="card-description">
+                  The 2022 car has been put through over 7,500 simulations , creating around half a petabyte of
+                  data.That’s
+                  the equivalent of a third of the 10 billion photos on Facebook!
+                </p>
+                <div class="website-btn">
+                  <a href="https://www.formula1.com/en.html" target="_blank"><button class="card-btn">View Website</button></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card-container">
+              <div class="card-img"><img src="images/racers.jpg" alt="Several rivials posing"></div>
+              <div class="card-title">
+                <h3>Must See TV Rivalries</h3>
+              </div>
+              <div class="card-info">
+                <p class="card-description">
+                  Another clash of world class drivers begins.Lewis Hamilton and Max Verstappen provided us with a
+                  controversial finale to a firey duel that will leave Verstappen as the new #1 and Hamilton still searching
+                  for that 8th title record.
+                </p>
+                <div class="website-btn">
+                  <a href="https://www.formula1.com/en.html" target="_blank"><button class="card-btn">View Website</button></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card-container">
+              <div class="card-img"><img src="images/car2.jpg" alt="Look at that rear end"></div>
+              <div class="card-title">
+                <h3>New Cars With 'Rolled Tips'</h3>
+              </div>
+              <div class="card-info">
+                <p class="card-description">
+                  New for 2022 cars the rear wing creates a rotational airflow that collects the rear wheel wake and rolls
+                  it into the flow exiting the diffuser. All that to say cars following behind don't have as much wind
+                  resistence and can stay closer forlonger and pass easier which make racing better for the fans.
+                </p>
+                <div class="website-btn">
+                  <a href="https://www.formula1.com/en.html" target="_blank"><button class="card-btn">View Website</button></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card-container">
+              <div class="card-img"><img src="images/pirelli.jpg" alt="Pirelli Tyres"></div>
+              <div class="card-title">
+                <h3>Pirelli Hits The Asphalt</h3>
+              </div>
+              <div class="card-info">
+                <p class="card-description">
+                  F1's fan base has layed their eyes on a new 18-inch set of low profile tyres provided by Pirelli.
+              The goal of these new Pirelli tyres is to reduce the tyre material heating up excessivly when sliding
+              in and out corners. In return the end result should be much more wheel to wheel action.
+                </p>
+                <div class="website-btn">
+                  <a href="https://www.formula1.com/en.html" target="_blank"><button class="card-btn">View Website</button></a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+   </section>
+  <section id="dwnforce" data-nav="Downforce">
+    <div class="chart-section">
+      <h1 class="main-heading">For The Love Of Cars</h1>
+      <p>The new era of F1 begins with some much anticipated changes in the garage.</p>
+      <h3 class="sub-heading">A Decrease In Downforce</h4>
+        <p>2022 now introduces "clean air" the after affect of "catastrophic downforce loss". This means driverw behind
+          the lead car can stay closer for longer and close the gap between pole positions.</p>
+        <h3 class="sub-heading">A Decrease In Numbers</h4>
+          <p>2021 cars measured downforce loss of 46% at 10m distance. As For 2022, thoose numbers were reduced to 18%
+            at 10m distance. Let the races begin! </p>
+          <div class="chart-container">
+            <canvas id="downforce" width="600" height="400"></canvas>
+          </div>
+    </div>
+  </section>
+    <div class="new-section">
+      <h1 class="main-heading">Expierence Next-Gen Racing</h1>
+    </div>
+  <section class="videogame-showcase" id="videogame" data-nav="E-Sports">
+    <div class="videogame-container">
+      <video src="video/F1 2021 Features.mp4" id="gamevideo" autoplay muted loop></video>
+    </div>
+    <div id="videogame-info">
+      <a href="https://www.ea.com/games/f1/f1-2021/buy" target="_blank"><button class="buyNow-btn">Buy Now</button></a>
+      <!-- <a href="https://www.ea.com/games/f1/f1-22/buy/playstation" target="_blank"><button>Pre-Order Now</button></a> -->
+    </div>
+  </section>
+  <section class="ps5-section" data-nav="Shop PS5" id="playstation">
+    <div class="ps5-img"></div>
+    <main class="wrapper">
+      <div class="button-wrap">
+      <a href="https://www.playstation.com/en-us/ps5/games/" target="_blank"><button type="button" class="ps5-shop-btn">Browse PS5 Games</button> </a>
+    </div>    
+    <div class="buy-now" id="buyNow" data-nav="Buy F1 2021">
+      <ul>
+        <li>
+          <figure>
+            <a href="https://www.ea.com/games/f1/f1-2021/buy/playstation" target="_blank">
+              <img src="images/ps5.png" alt="" class="row__posterLarge" /></a>
+            <figcaption>
+              <h3>Buy Now On Playstation</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <a href="https://www.ea.com/games/f1/f1-2021/buy/xbox" target="_blank">
+              <img src="images/xbox.png" alt="" class="row__posterLarge" /></a>
+            <figcaption>
+              <h3>Buy Now On Xbox</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <a href="https://store.steampowered.com/app/1134570/F1_2021/" target="_blank">
+              <img src="images/steam.png" alt="" class="row__posterLarge" /></a>
+            <figcaption>
+              <h3>Buy Now On Steam</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <a href="https://www.playstation.com/en-us/games/f1-22/" target="_blank">
+              <img src="images/f1cover.jpg" alt="" class="row__posterLarge" /></a>
+            <figcaption>
+              <h3>Pre Order F1 2022 On Playstation</h3>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </main>
+    </section>
+  <section id="drivers" data-nav="Drivers">
+    <div class="new-section">
+      <h1 class="main-heading">Meet Your Top Ranked Drivers</h1>
+    </div>
+    <div class="hide-mobile">
+      <div class="slideshow">
+        <div class="slideshow-item">
+          <img src="images/lw.jpg" alt="Lewis Hamilton">
+          <div class="slideshow-item-text">
+            <h5>Sir Lewis Hamilton</h5>
+            <h3>Ranked: 4th</h3>
+            <p>The Mercedes W13 returns
+              in
+              the new era of racing.The G.O.A.T is coming off a podium winning 3rd in Bahrain GP and a
+              3/4
+              finish behind teammate George Russel in Australian GP. Lewis continues to keep the the pace for a record
+              tying 8 titles. </p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+          <img src="images/cw.jpg" alt="Charles Leclerc">
+          <div class="slideshow-item-text">
+            <h5>Charles Leclerc</h5>
+            <h3>Ranked: 1st</h3>
+            <p>The fastest man on track was Ferrai's Charles Leclerc. With another 1st place finish in the Austrailian
+              GP,
+              he now has a 10.0 perfect score and is top-dog in the power rankings. </p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+          <img src="images/mv.jpg" alt="Lewis Hamilton">
+          <div class="slideshow-item-text">
+            <h5>Max Verstappen </h5>
+            <h3>Ranked: 3rd</h3>
+            <p>Red Bull and Max himself have had some tough races which resulted in DNQ's.Max had his RB18 sprung an
+              engine issue but that didn't deter the
+              flying dutchman from placing 1st in the Emilia Romagna Grand Prix. </p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+          <img src="images/km.jpg" alt="Lewis Hamilton">
+          <div class="slideshow-item-text">
+            <h5>Kevin Magnussen</h5>
+            <h3>Ranked: 2nd</h3>
+            <p>In his debut return to the Hass team he placed a lovley p5 and scored points for the team since round 11
+              of
+              the 2020 season. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="new-section">
+      <div class="banner">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+
+              <img src="images/cw.jpg" alt="">
+
+              <div class="slide-text">
+                <h3>Charles Leclerc</h3>
+                <p class="swiper-text">Ranked: 1st</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/lw.jpg" alt="">
+              <div class="slide-text">
+                <h3>Sir Lewis Hamilton</h3>
+                <p class="swiper-text">Ranked: 4th</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/km.jpg" alt="">
+              <div class="slide-text">
+                <h3>Kevin Magnussen</h3>
+                <p class="swiper-text">Ranked: 2nd</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/mv.jpg" alt="">
+              <div class="slide-text">
+                <h3>Max Verstappen</h3>
+                <p class="swiper-text">Ranked: 3rd</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/ln.jpg" alt="">
+              <div class="slide-text">
+                <h3>Lando Norris</h3>
+                <p class="swiper-text">Ranked: 5th</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/vb.jpg" alt="">
+              <div class="slide-text">
+                <h3>Valtteri Bottas </h3>
+                <p class="swiper-text">Ranked: 9th</p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="socials" data-nav="Socials">
+    <div class="new-section">
+      <h1>Follow Us On Social Media</h1>
+      <div class="social">
+        <a href="https://www.youtube.com/c/MrCherratastic" target="_blank"><i
+            class="fab fa-youtube fa-3x fa-icons"></i></a>
+        <a href="https://www.playstation.com/en-us/" target="_blank"><i
+            class="fab fa-playstation fa-3x fa-icons"></i></a>
+        <a href="https://github.com/MrCherratastic" target="_blank"><i class="fab fa-github fa-3x fa-icons"></i></a>
+        <a href="https://www.linkedin.com/in/brandon-cherry-512992141/" target="_blank"><i
+            class="fab fa-linkedin fa-3x fa-icons"></i></a>
+      </div>
+    </div>
+  </section>
+<!-- Read Progress Bar -->
+    <div id="progress-bar"></div>
+      <footer class="official-footer">
+        <p>&nbsp&copy;&nbsp<span id="copyrightdate">2022</span>&nbspMrCherratastic Productions All Rights Reserved</p>
+      </footer>
+  <!--Back To Top Button-->
+  <a href="#returnHome" class="scroll-link top-link"><i class="fas fa-arrow-up"></i></a>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Link JS Chart/JQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/a16a2625cf.js" crossorigin="anonymous"></script>
+  <!--My JS-->
+  <script src="js\app.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      loop: true,
+      slidesPerView: 4,
+      slidesPerGroup: 1,
+      spaceBetween: 100,
+      speed: 2000,
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      }
+    });
+  </script>
+</body>
+
+</html>
