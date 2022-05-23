@@ -312,7 +312,7 @@ Readtime Bar END
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	background: var(--cherry-red) url('/images/f1gamepic.jpg') no-repeat center
+	background: var(--cherry-red) url('../images/f1gamepic.jpg') no-repeat center
 		center/cover;
 }
 
@@ -543,7 +543,7 @@ Drivers Slide
 }
 
 #land-page #era{
-  background: url('/images/car3.jpg');
+  background: url('../images/car3.jpg');
   background-size: cover;
   padding: 4rem 2rem;
   /* Grid styles */
@@ -858,7 +858,7 @@ PS5 and Buy Now Section
 /* Styles for the ps5 section background img*/
 #land-page .ps5-img {
 
-  background: url('/images/nolimits.jpg') center;
+  background: url('../images/nolimits.jpg') center;
   background-size: cover;
   height: 86.5vh;
   width: 100%;
@@ -1003,7 +1003,7 @@ Queries
   }
 
   #land-page .video-container{
-    background-image: url('/images/car4.jpeg');
+    background-image: url('../images/car4.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1025,7 +1025,7 @@ Queries
   }
 
   #land-page .videogame-container{
-    background-image: url('/images/f12022.jpg');
+    background-image: url('../images/f12022.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1189,7 +1189,7 @@ and (orientation : portrait)
   }
 
   #land-page .videogame-container{
-    background-image: url('/images/f12022.jpg');
+    background-image: url('../images/f12022.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1261,7 +1261,7 @@ and (orientation : landscape)
   
 
   #land-page .videogame-container{
-    background-image: url('/images/f12022.jpg');
+    background-image: url('../images/f12022.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
